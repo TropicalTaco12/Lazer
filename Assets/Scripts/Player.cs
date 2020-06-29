@@ -18,6 +18,7 @@ public class Player : MonoBehaviour
     float xMax;
     float yMin;
     float yMax;
+    float dontcare = 10f;
     // Use this for initialization
     void Start()
     {
