@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
     // configuration parameters
     [SerializeField] float moveSpeed = 10f;
     [SerializeField] float padding = 1f;
-    [SerializeField] GameObject laserPrefab;
+    [SerializeField] GameObject PlayerLazar;
     [SerializeField] float projectileSpeed = 10f;
     [SerializeField] float projectileFiringPeriod = 0.1f;
 
@@ -51,7 +51,7 @@ public class Player : MonoBehaviour
         {
 
             GameObject laser = Instantiate(
-                laserPrefab,
+                PlayerLazar,
                 transform.position,
                 Quaternion.identity) as GameObject;
             laser.GetComponent<Rigidbody2D>().velocity = new Vector2(0, projectileSpeed);
