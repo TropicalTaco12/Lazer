@@ -110,7 +110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44f982b5b9b9fba448c082c7e567a598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 500
   shotCounter: 0
   minTimeBetweenShot: 0.2
   maxTimeBetweenShots: 3
